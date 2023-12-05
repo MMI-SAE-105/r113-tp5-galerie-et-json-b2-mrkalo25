@@ -15,6 +15,10 @@
         Ratione nostrum dolor excepturi voluptatum soluta repellendus aspernatur harum
         itaque quidem voluptatibus cupiditate, facere fugit inventore necessitatibus laboriosam 
         deleniti dolorum sequi omnis.</p>
+    <img src="https://picsum.photos/id/236/60/40" alt="miniature chiot"
+        @click="imageurl= 'https://picsum.photos/id/236/400/300'">
+    <img src="https://picsum.photos/id/237/60/40" alt="miniature chiot"
+        @click="imageurl= 'https://picsum.photos/id/237/400/300'">
     <div class="overlay"
         x-show="imageurl"
         @click="imageurl= null" @keyup.space.window="imageurl=null">
