@@ -17,7 +17,7 @@
         deleniti dolorum sequi omnis.</p>
     <div class="overlay"
         x-show="imageurl"
-        @click="imageurl= null">
+        @click="imageurl= null" @keyup.space.window="imageurl=null">
         <figure>
             <img :src="imageurl" alt="image 237... un chiot">
         </figure>
