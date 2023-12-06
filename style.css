@@ -135,4 +135,26 @@
     
 }
 
+.titrep2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
+.donnée {
+    font-size: 1.2rem;
+    font-weight: initial;
+    margin-left: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(208, 202, 202);
+    border-radius: 7px;
+    color: #000000;
+    text-decoration: none;
+    width: 190px;
+    
+
+
+}
