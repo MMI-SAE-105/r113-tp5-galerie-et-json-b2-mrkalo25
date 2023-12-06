@@ -110,4 +110,29 @@
 
 }
 
+.titremenu {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+    
+}
+.boutonmenu {
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    text-decoration: none;
+    width: 90px;
+    
+}
+
 
