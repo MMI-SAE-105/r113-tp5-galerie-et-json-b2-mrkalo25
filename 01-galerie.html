@@ -10,15 +10,32 @@
 <body x-data="{
     imageurl: 'https://picsum.photos/id/237/400/300',
 }">
-    <h1>Galerie</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Ratione nostrum dolor excepturi voluptatum soluta repellendus aspernatur harum
-        itaque quidem voluptatibus cupiditate, facere fugit inventore necessitatibus laboriosam 
-        deleniti dolorum sequi omnis.</p>
-    <img src="https://picsum.photos/id/236/60/40" alt="miniature chiot"
+    <h1 class="titre1">Galerie</h1>
+    <p class="text1">Voici ma première galerie, je suis content du resultat</p>
+    <div class="image" >
+    <img class="image1" src="https://picsum.photos/id/236/60/40" alt="miniature maison"
         @click="imageurl= 'https://picsum.photos/id/236/400/300'">
-    <img src="https://picsum.photos/id/237/60/40" alt="miniature chiot"
+    <img class="image1" src="https://picsum.photos/id/237/60/40" alt="miniature chiot"
         @click="imageurl= 'https://picsum.photos/id/237/400/300'">
+    <img class="image1" src="https://picsum.photos/id/235/60/40" alt="miniature montagne"
+        @click="imageurl= 'https://picsum.photos/id/236/400/300'">
+    </div>
+    <div class="image">
+        <img class="image1" src="https://picsum.photos/id/232/60/40" alt="miniature maison"
+            @click="imageurl= 'https://picsum.photos/id/236/400/300'">
+        <img class="image1" src="https://picsum.photos/id/230/60/40" alt="miniature chiot"
+            @click="imageurl= 'https://picsum.photos/id/237/400/300'">
+        <img class="image1" src="https://picsum.photos/id/239/60/40" alt="miniature montagne"
+            @click="imageurl= 'https://picsum.photos/id/236/400/300'">
+    </div>
+    <div class="image">
+        <img class="image1" src="https://picsum.photos/id/132/60/40" alt="miniature maison"
+            @click="imageurl= 'https://picsum.photos/id/236/400/300'">
+        <img class="image1" src="https://picsum.photos/id/130/60/40" alt="miniature chiot"
+            @click="imageurl= 'https://picsum.photos/id/237/400/300'">
+        <img class="image1" src="https://picsum.photos/id/139/60/40" alt="miniature montagne"
+            @click="imageurl= 'https://picsum.photos/id/236/400/300'">
+    </div>
     <div class="overlay"
         x-show="imageurl"
         @click="imageurl= null" @keyup.space.window="imageurl=null">

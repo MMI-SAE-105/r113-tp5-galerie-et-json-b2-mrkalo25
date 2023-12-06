@@ -70,3 +70,44 @@
     /* Height auto for keeping the ratio */
     height: auto;
 }
+
+.titre1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.text1 {
+    font-size: 1.5rem;
+    font-weight: initial
+    ;
+    text-align: center;
+    margin: 35px;
+    padding: 10px;
+}
+
+.image {
+    text-align: center;
+    margin: 0;
+}
+
+.image1 {
+    width: 150px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: #000 5px solid;
+}
+
+.image1:hover {
+    transform: scale(1.2);
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
